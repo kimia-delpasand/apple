@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > div.wrapper {
+  width: 100%;
+}
+
+body > div.wrapper > div.sub1 {
+  width: 286px;
+  height: 312px;
+  background-color: brown;
+  position: absolute;
+  left: 1173px;
+  border-radius: 20px;
+  display: none;
+}
+
+body > div.wrapper > div.sub2 {
+  width: 629px;
+  height: 300px;
+  background: #164b79;
+  position: absolute;
+  left: 550px;
+  top: 0;
+  display: none;
+}
+
+body > div.wrapper > div.menu {
+  width: inherit;
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+}
+
+body > div.wrapper > div.menu > nav {
+  width: 70%;
+  height: 40px;
+}
+
+body > div.wrapper > div.menu > nav > ul {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+body > div.wrapper > div.menu > nav > ul > li.one {
+  width: auto;
+  height: inherit;
+  list-style: none;
+  line-height: 38px;
+}
+
+body > div.wrapper > div.menu > nav > ul > li.one > a {
+  height: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f5f5f7;
+}
+
+body > div.wrapper > div.menu > nav > ul > li.two {
+  width: auto;
+  height: inherit;
+  list-style: none;
+  line-height: 38px;
+}
+
+body > div.wrapper > div.menu > nav > ul > li.two > a {
+  height: inherit;
+  text-decoration: none;
+  font-size: 15px;
+  color: #f5f5f7;
+}
+
+body > div.wrapper > div.photo1 {
+  width: inherit;
+  height: 696px;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(1) {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(1) > a.one {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding-top: 40px;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(1) > a.one > img {
+  width: 600px;
+  height: inherit;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(2) {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(2) > a {
+  color: #2997ff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(2) > a:hover {
+  text-decoration: underline;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(2) > a > span {
+  font-size: 15px;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(3) {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(3) > a {
+  width: inherit;
+  height: 450px;
+}
+
+body > div.wrapper > div.photo1 > div:nth-of-type(3) > a > img {
+  width: 100%;
+  height: 450px;
+}
+
+body > div.wrapper > div.photo2 {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 10px;
+  column-gap: 5px;
+  justify-content: center;
+  padding-top: 21px;
+}
+
+body > div.wrapper > div.photo2 > div {
+  width: 49%;
+  height: 640px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+body > div.wrapper > div.photo2 > div > a {
+  width: 100%;
+  height: inherit;
+  display: flex;
+}
+
+body > div.wrapper > div.photo2 > div > a > img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+body > div.wrapper > div.swiper {
+  width: 100%;
+  height: 705px;
+  background-color: #911414;
+}
+
+body > div.wrapper > footer {
+  width: 100%;
+  height: 1000px;
+  background-color: gray;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+body > div.wrapper > footer > div.yek {
+  width: 980px;
+  height: 487.6px;
+  background-color: #f5f8fc;
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+body > div.wrapper > footer > div.yek > li {
+  font-size: 14px;
+  padding-bottom: 12px;
+  color: #424245;
+  list-style: none;
+}
+
+body > div.wrapper > footer > div.do {
+  width: 980px;
+  height: 414.6px;
+  background-color: #f5f8fc;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  gap: 1px;
+}
+
+body > div.wrapper > footer > div.do > div {
+  width: auto;
+  height: inherit;
+  background-color: #424245;
+}
+
+body > div.wrapper > footer > div.se {
+  width: 980px;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+body > div.wrapper > footer > div.se > span {
+  color: #424245;
+}
+
+body > div.wrapper > footer > div.se > span > a {
+  text-decoration: none;
+  color: #06c;
+}
+
+body > div.wrapper > footer > div.cha {
+  width: 980px;
+  height: 30px;
+  background-color: #b4bcc7;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body > div.wrapper > footer > div.cha > div.ch1 {
+  flex-basis: 300px;
+}
+
+body > div.wrapper > footer > div.cha > div.ch1 > p {
+  font-size: 14px;
+}
+
+body > div.wrapper > footer > div.cha > div.ch2 {
+  flex-basis: 460px;
+  padding-left: 10px;
+}
+
+body > div.wrapper > footer > div.cha > div.ch2 a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #424245;
+  padding-right: 7px;
+}
+
+body > div.wrapper > footer > div.cha > div.ch3 {
+  flex-basis: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+body > div.wrapper > footer > div.cha > div.ch3 > a {
+  text-decoration: none;
+}
